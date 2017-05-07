@@ -1,0 +1,614 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+  html .header, body .header {
+    width: 100%;
+    height: 250px;
+    background-color: #3498db;
+    position: absolute;
+    top: 50;
+    overflow: hidden; }
+    html .header .logo-div, body .header .logo-div {
+      float: left;
+      width: 180px;
+      height: 180px; }
+      html .header .logo-div .logo-img, body .header .logo-div .logo-img {
+        position: relative;
+        top: 30px;
+        left: 30px;
+        width: 100%;
+        height: 100%;
+        background: url("../images/Logo.png") center center no-repeat;
+        background-size: cover; }
+    html .header #Tittle, body .header #Tittle {
+      text-align: center; }
+      html .header #Tittle h1, body .header #Tittle h1 {
+        padding-top: 30px;
+        padding-left: 30%;
+        font-weight: 800;
+        font-size: 30px; }
+      html .header #Tittle h2, body .header #Tittle h2 {
+        font-size: 20px; }
+
+.bg-img {
+  width: 100%;
+  height: 1200px;
+  /*  background: url('../images/bg.jpg') center center no-repeat;*/
+  background-color: #F4D03F;
+  background-size: cover; }
+
+.Copyright {
+  background-color: #10100C;
+  text-align: center;
+  color: #F8F9F9;
+  font-size: 30px;
+  padding-top: 65px; }
+
+.navbar {
+  margin-bottom: 0; }
+  .navbar navbar-default {
+    height: 50px; }
+
+.userImg {
+  float: left;
+  width: 200;
+  height: 230; }
+
+.myComment {
+  padding-top: 20px; }
+
+.userCommet {
+  padding-top: 10px; }
+
+.mainContainer {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px; }
+  .mainContainer #profilelist img {
+    width: 300px; }
+  .mainContainer #profilelist p {
+    font-size: 30px; }
+
+#logo {
+  height: 50px;
+  width: 50px;
+  float: left; }
+
+form {
+  border-top: solid thin #b3b3b3;
+  padding-top: 10px; }
+
+#map {
+  height: 200px;
+  width: 100%;
+  float: right; }
+
+#Ave {
+  float: right; }
+
+/*.form-map {
+  margin: 0 10;
+  width: 400px;
+  margin-left: 6px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}*/
+.form-group input[type="text"] {
+  width: 100%;
+  margin-left: 0px; }
+
+.menuDiv {
+  text-align: center;
+  width: 90%;
+  vertical-align: top;
+  padding: 10% 0;
+  clear: both;
+  margin: 0 auto !important;
+  display: block;
+  float: none;
+  color: #5DADE2; }
+
+.menuBtn {
+  width: 44%;
+  vertical-align: top;
+  padding: 1% 0;
+  float: left;
+  display: inline-block;
+  box-sizing: border-box;
+  color: #01579b;
+  text-decoration: none;
+  text-align: center; }
+
+.Tile {
+  color: #f13;
+  display: block;
+  text-align: center; }
+
+#RestaurantList {
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 800; }
+
+#RestaurantPageList {
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 800; }
+
+#ReviewList {
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 800; }
+
+#showReview {
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 800; }
+
+.box {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  background-color: #000; }
+
+.form-container {
+  margin: 0 auto;
+  width: 235px;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  .form-container input {
+    margin-bottom: 5px; }
+  .form-container button {
+    display: block;
+    width: 120%;
+    margin-top: 10px; }
+
+span.glyphicon.glyphicon-remove {
+  float: right; }
+
+.profileImage {
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid 2px #c7c7c7;
+  padding: 10px; }
+
+.restaurantImage {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: solid 2px #c7c7c7;
+  padding: 5px;
+  float: left; }
+
+.listTable {
+  border-spacing: 10px;
+  width: 100%;
+  height: 80%; }
+
+.reviewTable {
+  border-spacing: 10px;
+  width: 100%;
+  height: 80%; }
+
+.informationTable {
+  border-spacing: 10px;
+  width: 100%;
+  height: 80%; }
+
+@media screen and (max-width: 480px) {
+  html, body {
+    width: 100%;
+    height: 100%; }
+    html .header, body .header {
+      width: 100%;
+      height: 160px;
+      background-color: #3498db;
+      position: absolute;
+      top: 50;
+      overflow: hidden; }
+      html .header .logo-div, body .header .logo-div {
+        float: left;
+        width: 100px;
+        height: 100px; }
+        html .header .logo-div .logo-img, body .header .logo-div .logo-img {
+          position: relative;
+          top: 18px;
+          left: 18px;
+          width: 100%;
+          height: 100%;
+          background: url("../images/Logo.png") center center no-repeat;
+          background-size: cover; }
+      html .header #Tittle, body .header #Tittle {
+        text-align: center; }
+        html .header #Tittle h1, body .header #Tittle h1 {
+          padding-top: 30px;
+          padding-left: 30%;
+          font-weight: 700;
+          font-size: 18px; }
+        html .header #Tittle h2, body .header #Tittle h2 {
+          font-size: 12px; }
+
+  .bg-img {
+    width: 100%;
+    height: 1200px;
+    /*  background: url('../images/bg.jpg') center center no-repeat;*/
+    background-color: #F4D03F;
+    background-size: cover; }
+
+  .Copyright {
+    background-color: #10100C;
+    text-align: center;
+    color: #F8F9F9;
+    font-size: 27px;
+    padding-top: 60px; }
+
+  .navbar {
+    margin-bottom: 0; }
+    .navbar navbar-default {
+      height: 50px; }
+
+  .userImg {
+    float: left;
+    width: 200;
+    height: 230; }
+
+  .myComment {
+    padding-top: 20px; }
+
+  .userCommet {
+    padding-top: 10px; }
+
+  .mainContainer {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px; }
+    .mainContainer #profilelist img {
+      width: 300px; }
+    .mainContainer #profilelist p {
+      font-size: 30px; }
+
+  #logo {
+    height: 50px;
+    width: 50px;
+    float: left; }
+
+  form {
+    border-top: solid thin #b3b3b3;
+    padding-top: 10px; }
+
+  #map {
+    height: 150px;
+    width: 100%;
+    float: right; }
+
+  #Ave {
+    float: right; }
+
+  /*.form-map {
+    margin: 0 10;
+    width: 400px;
+    margin-left: 6px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }*/
+  .menuDiv {
+    text-align: center;
+    width: 90%;
+    vertical-align: top;
+    padding: 10% 0;
+    clear: both;
+    margin: 0 auto !important;
+    display: block;
+    float: none;
+    color: #5DADE2; }
+
+  .menuBtn {
+    width: 44%;
+    vertical-align: top;
+    padding: 1% 0;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    color: #01579b;
+    text-decoration: none;
+    text-align: center; }
+
+  .Tile {
+    color: #f13;
+    display: block;
+    text-align: center; }
+
+  .form-group input[type="text"] {
+    width: 100%;
+    margin-left: 0px; }
+
+  #RestaurantList {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 800; }
+
+  #RestaurantPageList {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 800; }
+
+  #ReviewList {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 800; }
+
+  #showReview {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 800; }
+
+  .box {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: #000; }
+
+  .form-container {
+    margin: 0 auto;
+    width: 235px;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+    .form-container input {
+      margin-bottom: 5px; }
+    .form-container button {
+      display: block;
+      width: 120%;
+      margin-top: 10px; }
+
+  span.glyphicon.glyphicon-remove {
+    float: right; }
+
+  .profileImage {
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 2px #c7c7c7;
+    padding: 10px; }
+
+  .restaurantImage {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: solid 2px #c7c7c7;
+    padding: 5px;
+    float: left; }
+
+  .listTable {
+    border-spacing: 10px;
+    width: 100%;
+    height: 80%; }
+
+  .reviewTable {
+    border-spacing: 10px;
+    width: 100%;
+    height: 80%; }
+
+  .informationTable {
+    border-spacing: 10px;
+    width: 100%;
+    height: 80%; } }
+@media screen and (min-width: 720px) {
+  html, body {
+    width: 100%;
+    height: 100%; }
+    html .header, body .header {
+      width: 100%;
+      height: 400px;
+      background-color: #3498db;
+      position: absolute;
+      top: 50;
+      overflow: hidden; }
+      html .header .logo-div, body .header .logo-div {
+        float: left;
+        width: 400px;
+        height: 400px; }
+        html .header .logo-div .logo-img, body .header .logo-div .logo-img {
+          position: relative;
+          top: 100px;
+          left: 120px;
+          width: 55%;
+          height: 55%;
+          background: url("../images/Logo.png") center center no-repeat;
+          background-size: cover; }
+      html .header #Tittle, body .header #Tittle {
+        text-align: center; }
+        html .header #Tittle h1, body .header #Tittle h1 {
+          padding-top: 100px;
+          padding-left: 20%;
+          font-weight: 900;
+          font-size: 50px; }
+        html .header #Tittle h2, body .header #Tittle h2 {
+          font-size: 40px; }
+
+  .bg-img {
+    width: 100%;
+    height: 1700px;
+    /*  background: url('../images/bg.jpg') center center no-repeat;*/
+    background-color: #F4D03F;
+    background-size: cover; }
+
+  .Copyright {
+    background-color: #10100C;
+    text-align: center;
+    color: #F8F9F9;
+    font-size: 35px;
+    padding-top: 70px; }
+
+  .navbar {
+    margin-bottom: 0; }
+    .navbar navbar-default {
+      height: 50px; }
+
+  .userImg {
+    float: left;
+    width: 200;
+    height: 230; }
+
+  .myComment {
+    padding-top: 20px; }
+
+  .userCommet {
+    padding-top: 10px; }
+
+  .mainContainer {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px; }
+    .mainContainer #profilelist img {
+      width: 300px; }
+    .mainContainer #profilelist p {
+      font-size: 30px; }
+
+  #logo {
+    height: 50px;
+    width: 50px;
+    float: left; }
+
+  form {
+    border-top: solid thin #b3b3b3;
+    padding-top: 10px; }
+
+  #map {
+    height: 350px;
+    width: 450px;
+    float: right; }
+
+  #Ave {
+    float: right; }
+
+  /*.form-map {
+    margin: 0 10;
+    width: 400px;
+    margin-left: 6px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }*/
+  .form-group input[type="text"] {
+    width: 100%;
+    margin-left: 0px; }
+
+  .menuDiv {
+    text-align: center;
+    width: 90%;
+    vertical-align: top;
+    padding: 10% 0;
+    clear: both;
+    margin: 0 auto !important;
+    display: block;
+    float: none;
+    color: #5DADE2; }
+
+  .menuBtn {
+    width: 44%;
+    vertical-align: top;
+    padding: 1% 0;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    color: #01579b;
+    text-decoration: none;
+    text-align: center; }
+
+  .Tile {
+    color: #f13;
+    display: block;
+    text-align: center; }
+
+  #RestaurantList {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 800; }
+
+  #RestaurantPageList {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 800; }
+
+  #ReviewList {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 800; }
+
+  #showReview {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 800; }
+
+  .box {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: #000; }
+
+  .form-container {
+    margin: 0 auto;
+    width: 235px;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+    .form-container input {
+      margin-bottom: 5px; }
+    .form-container button {
+      display: block;
+      width: 120%;
+      margin-top: 10px; }
+
+  span.glyphicon.glyphicon-remove {
+    float: right; }
+
+  .profileImage {
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 2px #c7c7c7;
+    padding: 10px; }
+
+  .restaurantImage {
+    width: 500px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: solid 2px #c7c7c7;
+    padding: 5px;
+    float: left; }
+
+  .listTable {
+    border-spacing: 10px;
+    width: 100%;
+    height: 80%; }
+
+  .reviewTable {
+    border-spacing: 10px;
+    width: 100%;
+    height: 80%; }
+
+  .informationTable {
+    border-spacing: 10px;
+    width: 100%;
+    height: 80%; } }
+
+/*# sourceMappingURL=style.css.map */

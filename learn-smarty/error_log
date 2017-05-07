@@ -1,0 +1,2 @@
+[13-Feb-2017 10:04:48 America/New_York] PHP Warning:  require_once(./smarty/Smarty.class.php): failed to open stream: No such file or directory in /home/ezxkneuk/public_html/todo/learn-smarty/index.php on line 2
+[13-Feb-2017 10:04:48 America/New_York] PHP Fatal error:  require_once(): Failed opening required './smarty/Smarty.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ezxkneuk/public_html/todo/learn-smarty/index.php on line 2
