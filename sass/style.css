@@ -32,17 +32,32 @@ html, body {
 
 .bg-img {
   width: 100%;
-  height: 1700px;
+  height: 950px;
   /*  background: url('../images/bg.jpg') center center no-repeat;*/
   background-color: #F4D03F;
   background-size: cover; }
 
+.homeBtn {
+  width: 150px;
+  height: 150px; }
+
+.Content {
+  position: absolute;
+  top: 300px;
+  height: 700px;
+  width: 100%; }
+
 .Copyright {
   background-color: #10100C;
   text-align: center;
-  color: #F8F9F9;
-  font-size: 30px;
-  padding-top: 65px; }
+  position: absolute;
+  top: 900px;
+  height: 100px;
+  width: 100%; }
+  .Copyright p {
+    color: #F8F9F9;
+    font-size: 18px;
+    padding-top: 30px; }
 
 .navbar {
   margin-bottom: 0; }
@@ -104,7 +119,7 @@ form {
   text-align: center;
   width: 90%;
   vertical-align: top;
-  padding: 10% 0;
+  padding: 7% 0;
   clear: both;
   margin: 0 auto !important;
   display: block;
@@ -126,6 +141,8 @@ form {
   color: #f13;
   display: block;
   text-align: center; }
+  .Tile h1 {
+    font-size: 30px; }
 
 #RestaurantList {
   list-style: none;
@@ -237,17 +254,32 @@ span.glyphicon.glyphicon-remove {
 
   .bg-img {
     width: 100%;
-    height: 1700px;
+    height: 650px;
     /*  background: url('../images/bg.jpg') center center no-repeat;*/
     background-color: #F4D03F;
     background-size: cover; }
 
+  .homeBtn {
+    width: 100px;
+    height: 100px; }
+
+  .Content {
+    position: absolute;
+    top: 250px;
+    height: 450px;
+    width: 100%; }
+
   .Copyright {
     background-color: #10100C;
     text-align: center;
-    color: #F8F9F9;
-    font-size: 27px;
-    padding-top: 60px; }
+    position: absolute;
+    top: 650px;
+    height: 50px;
+    width: 100%; }
+    .Copyright p {
+      color: #F8F9F9;
+      font-size: 10px;
+      padding-top: 10px; }
 
   .navbar {
     margin-bottom: 0; }
@@ -305,7 +337,7 @@ span.glyphicon.glyphicon-remove {
     text-align: center;
     width: 90%;
     vertical-align: top;
-    padding: 10% 0;
+    padding: 4% 0;
     clear: both;
     margin: 0 auto !important;
     display: block;
@@ -327,6 +359,8 @@ span.glyphicon.glyphicon-remove {
     color: #f13;
     display: block;
     text-align: center; }
+    .Tile h1 {
+      font-size: 14px; }
 
   .form-group input[type="text"] {
     width: 100%;
@@ -446,12 +480,27 @@ span.glyphicon.glyphicon-remove {
     background-color: #F4D03F;
     background-size: cover; }
 
+  .homeBtn {
+    width: 250px;
+    height: 250px; }
+
+  .Content {
+    position: absolute;
+    top: 450px;
+    height: 1300px;
+    width: 100%; }
+
   .Copyright {
     background-color: #10100C;
     text-align: center;
-    color: #F8F9F9;
-    font-size: 35px;
-    padding-top: 70px; }
+    position: absolute;
+    top: 1500px;
+    height: 250px;
+    width: 100%; }
+    .Copyright p {
+      color: #F8F9F9;
+      font-size: 35px;
+      padding-top: 70px; }
 
   .navbar {
     margin-bottom: 0; }
@@ -535,6 +584,8 @@ span.glyphicon.glyphicon-remove {
     color: #f13;
     display: block;
     text-align: center; }
+    .Tile h1 {
+      font-size: 36px; }
 
   #RestaurantList {
     list-style: none;
